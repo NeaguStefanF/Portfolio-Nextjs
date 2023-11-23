@@ -36,12 +36,11 @@ const HeroSection = () => {
             building with JavaScript, React, and more.
           </p>
           <div>
-            <Link
-              href="#contact"
-              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-purple-600 to-blue-500  hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium text-white hover:bg-slate-200"
-            >
-              Hire Me
-            </Link>
+            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-purple-600 to-blue-500  hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium text-white hover:bg-slate-200">
+              {' '}
+              <Link href="#contact">Hire Me</Link>
+            </button>
+
             <a
               href={pdfUrl}
               download="CV.pdf"
