@@ -66,7 +66,7 @@ const EmailSection = () => {
       </div>
       <div className="flex flex-col items-start mt-9">
         <p className="text-[#ADB7BE] text-center max-w-md mb-2">
-          Contact me via email(form to be added):
+          Contact me via email:
         </p>
         <p className="text-lg font-bold text-white bg-gradient-to-br from-purple-600 to-blue-500 p-2 rounded-md">
           <a href="mailto:neagu.stefan.fanel@gmail.com">
