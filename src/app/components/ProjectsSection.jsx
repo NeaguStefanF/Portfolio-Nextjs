@@ -53,13 +53,14 @@ const projectsData = [
   },
   {
     id: 6,
-    title: 'Competitions Nextjs(backend deploy in work)',
+    title:
+      'Next.js Competitions Project (Frontend and Backend Deployed, Addressing Data Loading Bug in Deployment)',
     description:
       'React.js(Next.js) Bootstrap Node.js, Express, Sendgrid, MongoDB',
     image: '/images/projects/fullstack.png',
     tag: ['All', 'FullStack'],
     gitUrl: 'https://github.com/NeaguStefanF/NextjsNodeMultiUserEventsPlatform',
-    previewUrl: 'https://competitions-events-app.vercel.app/',
+    previewUrl: 'javascript:;',
   },
 ];
 
