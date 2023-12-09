@@ -71,7 +71,7 @@ const AboutSection = () => {
             player and I am exited to work with others to create amazing
             applications.
           </p>
-          <div className="flex flex-row gap-2 mt-8">
+          <div className="flex flex-wrap flex-row gap-2 mt-8">
             <TabButton
               selectTab={() => handleTabChange('skills')}
               active={tab === 'skills'}

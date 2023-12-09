@@ -53,8 +53,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title:
-      'Next.js Competitions Project (Frontend and Backend Deployed, Addressing Data Loading Bug in Deployment)',
+    title: 'Next.js Competitions (deploy in work)',
     description:
       'React.js(Next.js) Bootstrap Node.js, Express, Sendgrid, MongoDB',
     image: '/images/projects/fullstack.png',
@@ -109,7 +108,10 @@ const ProjectsSection = () => {
           isSelected={tag === 'Vanilla'}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul
+        ref={ref}
+        className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-8 md:gap-12"
+      >
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}

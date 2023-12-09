@@ -53,7 +53,7 @@ const EmailSection = () => {
           {' '}
           I&apos;m actively seeking new professional opportunities, my inbox is
           always open. Whether you have a question or just want to say hi,
-          I&apos;ll try my best to get back to you!
+          I&apos;ll reply in no time!
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/NeaguStefanF">
@@ -68,7 +68,7 @@ const EmailSection = () => {
         <p className="text-[#ADB7BE] text-center max-w-md mb-2">
           Contact me via email:
         </p>
-        <p className="text-lg font-bold text-white bg-gradient-to-br from-purple-600 to-blue-500 p-2 rounded-md">
+        <p className="text-sm sm:text-lg font-bold text-white bg-gradient-to-br from-purple-600 to-blue-500 p-2 rounded-md">
           <a href="mailto:neagu.stefan.fanel@gmail.com">
             neagu.stefan.fanel@gmail.com
           </a>
