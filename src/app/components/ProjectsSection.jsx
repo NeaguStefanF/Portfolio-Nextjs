@@ -7,34 +7,72 @@ import { motion, useInView } from 'framer-motion';
 const projectsData = [
   {
     id: 1,
+    title: 'Hotel Cabin Reservation',
+    description:
+      'React React Router DOM React Query React Hook Form Styled Components React Icons React Hot Toast | supabase ',
+    image: '/images/projects/hotel.png',
+    tag: ['All', 'FullStack'],
+    gitUrl: 'https://github.com/NeaguStefanF/Hotel-Cabins',
+    previewUrl: 'https://hotel-cabins.vercel.app/',
+  },
+
+  {
+    id: 2,
+    title: 'Next.js Competitions (deploy in work)',
+    description:
+      'React.js(Next.js) Bootstrap Node.js, Express, Sendgrid, MongoDB',
+    image: '/images/projects/fullstack.png',
+    tag: ['All', 'FullStack'],
+    gitUrl:
+      'https://github.com/NeaguStefanF/NextjsNodeMultiUserEventsPlatform',
+    previewUrl: 'javascript:;',
+  },
+  {
+    id: 3,
+    title: 'ProjectHub',
+    description:
+      'React React Router DOM React Query React Hook Form Styled Components React Icons React Hot Toast | supabase',
+    image: '/images/projects/projecthub.png',
+    tag: ['All', 'FullStack'],
+    gitUrl: 'https://github.com/NeaguStefanF/ProjectHub',
+    previewUrl:
+      'https://project-hub-two.vercel.app/projects',
+  },
+  {
+    id: 4,
     title: 'Pizza React',
     description:
       'React(React Router data loading, Redux, Redux Toolkit, thunks, Tailwind CSS)',
     image: '/images/projects/pizza.png',
     tag: ['All', 'FrontEnd'],
-    gitUrl: 'https://github.com/NeaguStefanF/Pizza-order-React',
+    gitUrl:
+      'https://github.com/NeaguStefanF/Pizza-order-React',
     previewUrl: 'https://pizza-order-react.vercel.app/',
   },
   {
-    id: 2,
+    id: 5,
     title: 'Travel React',
-    description: 'React(React Router, context API, memo, useMemo, useCallback)',
+    description:
+      'React(React Router, context API, memo, useMemo, useCallback)',
     image: '/images/projects/travel.png',
     tag: ['All', 'FrontEnd'],
-    gitUrl: 'https://github.com/NeaguStefanF/WorldTravel-React',
-    previewUrl: 'https://world-travel-react-weld.vercel.app/',
+    gitUrl:
+      'https://github.com/NeaguStefanF/WorldTravel-React',
+    previewUrl:
+      'https://world-travel-react-weld.vercel.app/',
   },
   {
-    id: 3,
+    id: 6,
     title: 'Movie React',
-    description: 'React(useEffect, data fetching, custom hooks)',
+    description:
+      'React(useEffect, data fetching, custom hooks)',
     image: '/images/projects/film.png',
     tag: ['All', 'FrontEnd'],
     gitUrl: 'https://github.com/NeaguStefanF/Movie-React',
     previewUrl: 'https://movie-react-snowy.vercel.app/',
   },
   {
-    id: 4,
+    id: 7,
     title: 'Questions React',
     description: 'React(useReducer)',
     image: '/images/projects/quiz.png',
@@ -43,23 +81,14 @@ const projectsData = [
     previewUrl: 'https://react-quiz-khaki.vercel.app/',
   },
   {
-    id: 5,
+    id: 8,
     title: 'Food App',
     description: 'Vanilla Website: HTML5 CSS3 JavaScript',
     image: '/images/projects/vanilla.png',
     tag: ['All', 'Vanilla'],
-    gitUrl: 'https://github.com/NeaguStefanF/Vanilla-Food-App',
+    gitUrl:
+      'https://github.com/NeaguStefanF/Vanilla-Food-App',
     previewUrl: 'https://vanilla-food-app.vercel.app/',
-  },
-  {
-    id: 6,
-    title: 'Next.js Competitions (deploy in work)',
-    description:
-      'React.js(Next.js) Bootstrap Node.js, Express, Sendgrid, MongoDB',
-    image: '/images/projects/fullstack.png',
-    tag: ['All', 'FullStack'],
-    gitUrl: 'https://github.com/NeaguStefanF/NextjsNodeMultiUserEventsPlatform',
-    previewUrl: 'javascript:;',
   },
 ];
 
@@ -118,7 +147,10 @@ const ProjectsSection = () => {
             variants={cardVariants}
             initial="initial"
             animate={isInView ? 'animate' : 'initial'}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
+            transition={{
+              duration: 0.3,
+              delay: index * 0.4,
+            }}
           >
             <ProjectCard
               key={project.id}
