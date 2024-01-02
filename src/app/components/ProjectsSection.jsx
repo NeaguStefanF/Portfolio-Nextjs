@@ -35,8 +35,7 @@ const projectsData = [
     image: '/images/projects/projecthub.png',
     tag: ['All', 'FullStack'],
     gitUrl: 'https://github.com/NeaguStefanF/ProjectHub',
-    previewUrl:
-      'https://project-hub-two.vercel.app/projects',
+    previewUrl: 'https://project-hub-two.vercel.app',
   },
   {
     id: 4,
