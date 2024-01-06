@@ -31,7 +31,7 @@ const TAB_DATA = [
     id: 'experience',
     content: (
       <ul className=" list-disc pl-2">
-        <li>Internship(programmer assistant) in web development</li>
+        <li>Programmer assistant in web development.</li>
       </ul>
     ),
   },
@@ -61,15 +61,19 @@ const AboutSection = () => {
           className="mb-4 md:mb-0"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">
+            About Me
+          </h2>
           <p className="text-base md:text-lg ">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web application. I m specializing in
-            JavaScript, React, Next.js, Node.js, Express, MongoDB, HTML, CSS,
-            Tailwind, Git and always open to more. A quick learner and I am
-            always looking to expand my knowledge and skill set. I am a team
-            player and I am exited to work with others to create amazing
-            applications.
+            I am a full stack web developer with a passion
+            for creating interactive and responsive web
+            application. I m specializing in JavaScript,
+            React, Next.js, Node.js, Express, MongoDB, HTML,
+            CSS, Tailwind, Git and always open to more. A
+            quick learner and I am always looking to expand
+            my knowledge and skill set. I am a team player
+            and I am exited to work with others to create
+            amazing applications.
           </p>
           <div className="flex flex-wrap flex-row gap-2 mt-8">
             <TabButton
@@ -85,7 +89,9 @@ const AboutSection = () => {
               Education
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange('experience')}
+              selectTab={() =>
+                handleTabChange('experience')
+              }
               active={tab === 'experience'}
             >
               Experience
