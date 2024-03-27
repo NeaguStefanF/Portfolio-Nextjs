@@ -9,10 +9,10 @@ const TAB_DATA = [
     id: 'skills',
     content: (
       <ul className=" list-disc pl-2">
-        <li>JavaScript</li>
-        <li>React Next.js</li>
-        <li>Node.js Express</li>
-        <li>MongoDB MySQL</li>
+        <li>JavaScript/TypeScript</li>
+        <li>React/Next.js</li>
+        <li>Nest.js/Node.js Express</li>
+        <li>MongoDB/MySQL</li>
         <li>HTML5 CSS3 Tailwind</li>
       </ul>
     ),
@@ -31,6 +31,7 @@ const TAB_DATA = [
     id: 'experience',
     content: (
       <ul className=" list-disc pl-2">
+        <li>Freelancer as fullstack developer</li>
         <li>Programmer assistant in web development.</li>
       </ul>
     ),
@@ -67,13 +68,14 @@ const AboutSection = () => {
           <p className="text-base md:text-lg ">
             I am a full stack web developer with a passion
             for creating interactive and responsive web
-            application. I m specializing in JavaScript,
-            React, Next.js, Node.js, Express, MongoDB, HTML,
-            CSS, Tailwind, Git and always open to more. A
-            quick learner and I am always looking to expand
-            my knowledge and skill set. I am a team player
-            and I am exited to work with others to create
-            amazing applications.
+            application. I m specializing in
+            JavaScript/Typescript, React, Next.js,
+            Nest.js/Node.js, Express, MongoDB/MySQL, HTML,
+            CSS, Tailwind, Git, Wordpress and always open to
+            more. A quick learner and I am always looking to
+            expand my knowledge and skill set. I am a team
+            player and I am exited to work with others to
+            create amazing applications.
           </p>
           <div className="flex flex-wrap flex-row gap-2 mt-8">
             <TabButton

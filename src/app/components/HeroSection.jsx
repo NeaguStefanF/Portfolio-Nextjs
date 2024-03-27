@@ -24,7 +24,12 @@ const HeroSection = () => {
             <br></br>
             <span className="inline-block w-full sm:w-auto">
               <TypeAnimation
-                sequence={['Ștefan', 1000, 'Web Developer', 1000]}
+                sequence={[
+                  'Ștefan',
+                  1000,
+                  'Web Developer',
+                  1000,
+                ]}
                 wrapper="span"
                 speed={40}
                 repeat={Infinity}
@@ -32,18 +37,19 @@ const HeroSection = () => {
             </span>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Passionate about crafting the digital world with code. Learning and
-            building with JavaScript, React, and more.
+            Passionate about crafting the digital world with
+            code. Learning and building with React,
+            Nest.js/Node.js, and more.
           </p>
           <div>
             <Link
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-purple-600 to-blue-500  hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium text-white hover:bg-slate-200"
               href="#contact"
             >
-              Hire Me
+              Contact me
             </Link>
 
-            <a
+            {/* <a
               href={pdfUrl}
               download="CV.pdf"
               onClick={handleDownloadClick}
@@ -52,7 +58,7 @@ const HeroSection = () => {
               <span className="relative px-6 py-3 transition-all w-full sm:w-fit ease-in duration-75 bg-white dark:bg-[#121212] rounded-full group-hover:bg-opacity-0">
                 Download CV
               </span>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">

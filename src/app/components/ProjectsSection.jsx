@@ -7,6 +7,16 @@ import { motion, useInView } from 'framer-motion';
 const projectsData = [
   {
     id: 1,
+    title: 'ProjectHub',
+    description:
+      'React React Router DOM React Query React Hook Form Styled Components React Icons React Hot Toast | supabase',
+    image: '/images/projects/projecthub.png',
+    tag: ['All', 'FullStack'],
+    gitUrl: 'https://github.com/NeaguStefanF/ProjectHub',
+    previewUrl: 'https://project-hub-two.vercel.app',
+  },
+  {
+    id: 2,
     title: 'Hotel Cabin Reservation',
     description:
       'React React Router DOM React Query React Hook Form Styled Components React Icons React Hot Toast | supabase ',
@@ -17,28 +27,7 @@ const projectsData = [
   },
 
   {
-    id: 2,
-    title: 'Next.js Competitions (deploy in work)',
-    description:
-      'React.js(Next.js) Bootstrap Node.js, Express, Sendgrid, MongoDB',
-    image: '/images/projects/fullstack.png',
-    tag: ['All', 'FullStack'],
-    gitUrl:
-      'https://github.com/NeaguStefanF/NextjsNodeMultiUserEventsPlatform',
-    previewUrl: 'javascript:;',
-  },
-  {
     id: 3,
-    title: 'ProjectHub',
-    description:
-      'React React Router DOM React Query React Hook Form Styled Components React Icons React Hot Toast | supabase',
-    image: '/images/projects/projecthub.png',
-    tag: ['All', 'FullStack'],
-    gitUrl: 'https://github.com/NeaguStefanF/ProjectHub',
-    previewUrl: 'https://project-hub-two.vercel.app',
-  },
-  {
-    id: 4,
     title: 'Pizza React',
     description:
       'React(React Router data loading, Redux, Redux Toolkit, thunks, Tailwind CSS)',
@@ -49,7 +38,7 @@ const projectsData = [
     previewUrl: 'https://pizza-order-react.vercel.app/',
   },
   {
-    id: 5,
+    id: 4,
     title: 'Travel React',
     description:
       'React(React Router, context API, memo, useMemo, useCallback)',
@@ -61,7 +50,7 @@ const projectsData = [
       'https://world-travel-react-weld.vercel.app/',
   },
   {
-    id: 6,
+    id: 5,
     title: 'Movie React',
     description:
       'React(useEffect, data fetching, custom hooks)',
@@ -71,7 +60,7 @@ const projectsData = [
     previewUrl: 'https://movie-react-snowy.vercel.app/',
   },
   {
-    id: 7,
+    id: 6,
     title: 'Questions React',
     description: 'React(useReducer)',
     image: '/images/projects/quiz.png',
@@ -80,7 +69,7 @@ const projectsData = [
     previewUrl: 'https://react-quiz-khaki.vercel.app/',
   },
   {
-    id: 8,
+    id: 7,
     title: 'Food App',
     description: 'Vanilla Website: HTML5 CSS3 JavaScript',
     image: '/images/projects/vanilla.png',
@@ -88,6 +77,17 @@ const projectsData = [
     gitUrl:
       'https://github.com/NeaguStefanF/Vanilla-Food-App',
     previewUrl: 'https://vanilla-food-app.vercel.app/',
+  },
+  {
+    id: 8,
+    title: 'Next.js Competitions (deploy in work)',
+    description:
+      'React.js(Next.js) Bootstrap Node.js, Express, Sendgrid, MongoDB',
+    image: '/images/projects/fullstack.png',
+    tag: ['All', 'FullStack'],
+    gitUrl:
+      'https://github.com/NeaguStefanF/NextjsNodeMultiUserEventsPlatform',
+    previewUrl: 'javascript:;',
   },
 ];
 

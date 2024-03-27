@@ -6,7 +6,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const EmailSection = () => {
-  const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const [emailSubmitted, setEmailSubmitted] =
+    useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -51,8 +52,9 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {' '}
-          I&apos;m actively seeking new professional opportunities, my inbox is
-          always open. Whether you have a question or just want to say hi,
+          I&apos;m actively seeking new professional
+          opportunities, my inbox is always open. Whether
+          you have a question or just want to say hi,
           I&apos;ll reply in no time!
         </p>
         <div className="socials flex flex-row gap-2">
